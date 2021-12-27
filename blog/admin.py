@@ -1,5 +1,5 @@
 from django.contrib import admin
-from blango.models import Tag, Post, Comment
+from blog.models import Tag, Post, Comment
 
 class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
