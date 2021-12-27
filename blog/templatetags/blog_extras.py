@@ -28,3 +28,9 @@ def author_details(author):
         suffix = ""
 
     return format_html('{}{}{}', prefix, name, suffix)
+
+  
+  
+
+  
+  
